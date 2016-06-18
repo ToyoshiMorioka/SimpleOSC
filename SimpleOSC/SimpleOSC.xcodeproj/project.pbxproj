@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF3534B1D10EA4D00B7553A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3534A1D10EA4D00B7553A /* AppDelegate.swift */; };
+		BDF3534D1D10EA4D00B7553A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3534C1D10EA4D00B7553A /* ViewController.swift */; };
+		BDF353501D10EA4D00B7553A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF3534E1D10EA4D00B7553A /* Main.storyboard */; };
+		BDF353531D10EA4D00B7553A /* SimpleOSC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF353511D10EA4D00B7553A /* SimpleOSC.xcdatamodeld */; };
+		BDF353551D10EA4D00B7553A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF353541D10EA4D00B7553A /* Assets.xcassets */; };
+		BDF353581D10EA4D00B7553A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF353561D10EA4D00B7553A /* LaunchScreen.storyboard */; };
+		BDF353801D10EE4800B7553A /* SimpleOSCMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3537F1D10EE4800B7553A /* SimpleOSCMessage.swift */; };
+		BDF353821D10EE5800B7553A /* SimpleOSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF353811D10EE5800B7553A /* SimpleOSC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDF353471D10EA4D00B7553A /* SimpleOSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleOSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF3534A1D10EA4D00B7553A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF3534C1D10EA4D00B7553A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDF3534F1D10EA4D00B7553A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF353521D10EA4D00B7553A /* SimpleOSC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleOSC.xcdatamodel; sourceTree = "<group>"; };
+		BDF353541D10EA4D00B7553A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF353571D10EA4D00B7553A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF353591D10EA4D00B7553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF3537F1D10EE4800B7553A /* SimpleOSCMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleOSCMessage.swift; sourceTree = "<group>"; };
+		BDF353811D10EE5800B7553A /* SimpleOSC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleOSC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF353441D10EA4D00B7553A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF3533E1D10EA4D00B7553A = {
+			isa = PBXGroup;
+			children = (
+				BDF353491D10EA4D00B7553A /* SimpleOSC */,
+				BDF353481D10EA4D00B7553A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF353481D10EA4D00B7553A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF353471D10EA4D00B7553A /* SimpleOSC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF353491D10EA4D00B7553A /* SimpleOSC */ = {
+			isa = PBXGroup;
+			children = (
+				BDF353811D10EE5800B7553A /* SimpleOSC.swift */,
+				BDF3537F1D10EE4800B7553A /* SimpleOSCMessage.swift */,
+				BDF3534A1D10EA4D00B7553A /* AppDelegate.swift */,
+				BDF3534C1D10EA4D00B7553A /* ViewController.swift */,
+				BDF3534E1D10EA4D00B7553A /* Main.storyboard */,
+				BDF353541D10EA4D00B7553A /* Assets.xcassets */,
+				BDF353561D10EA4D00B7553A /* LaunchScreen.storyboard */,
+				BDF353591D10EA4D00B7553A /* Info.plist */,
+				BDF353511D10EA4D00B7553A /* SimpleOSC.xcdatamodeld */,
+			);
+			path = SimpleOSC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF353461D10EA4D00B7553A /* SimpleOSC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF353721D10EA4E00B7553A /* Build configuration list for PBXNativeTarget "SimpleOSC" */;
+			buildPhases = (
+				BDF353431D10EA4D00B7553A /* Sources */,
+				BDF353441D10EA4D00B7553A /* Frameworks */,
+				BDF353451D10EA4D00B7553A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleOSC;
+			productName = SimpleOSC;
+			productReference = BDF353471D10EA4D00B7553A /* SimpleOSC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF3533F1D10EA4D00B7553A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "___MORIOKAToyoshi___";
+				TargetAttributes = {
+					BDF353461D10EA4D00B7553A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BDF353421D10EA4D00B7553A /* Build configuration list for PBXProject "SimpleOSC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF3533E1D10EA4D00B7553A;
+			productRefGroup = BDF353481D10EA4D00B7553A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF353461D10EA4D00B7553A /* SimpleOSC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF353451D10EA4D00B7553A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF353581D10EA4D00B7553A /* LaunchScreen.storyboard in Resources */,
+				BDF353551D10EA4D00B7553A /* Assets.xcassets in Resources */,
+				BDF353501D10EA4D00B7553A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF353431D10EA4D00B7553A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF353821D10EE5800B7553A /* SimpleOSC.swift in Sources */,
+				BDF3534D1D10EA4D00B7553A /* ViewController.swift in Sources */,
+				BDF353801D10EE4800B7553A /* SimpleOSCMessage.swift in Sources */,
+				BDF3534B1D10EA4D00B7553A /* AppDelegate.swift in Sources */,
+				BDF353531D10EA4D00B7553A /* SimpleOSC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDF3534E1D10EA4D00B7553A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF3534F1D10EA4D00B7553A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF353561D10EA4D00B7553A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF353571D10EA4D00B7553A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF353701D10EA4E00B7553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF353711D10EA4E00B7553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF353731D10EA4E00B7553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleOSC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--10drive.SimpleOSC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDF353741D10EA4E00B7553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleOSC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--10drive.SimpleOSC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF353421D10EA4D00B7553A /* Build configuration list for PBXProject "SimpleOSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF353701D10EA4E00B7553A /* Debug */,
+				BDF353711D10EA4E00B7553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF353721D10EA4E00B7553A /* Build configuration list for PBXNativeTarget "SimpleOSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF353731D10EA4E00B7553A /* Debug */,
+				BDF353741D10EA4E00B7553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF353511D10EA4D00B7553A /* SimpleOSC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF353521D10EA4D00B7553A /* SimpleOSC.xcdatamodel */,
+			);
+			currentVersion = BDF353521D10EA4D00B7553A /* SimpleOSC.xcdatamodel */;
+			path = SimpleOSC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDF3533F1D10EA4D00B7553A /* Project object */;
+}
