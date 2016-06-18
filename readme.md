@@ -4,7 +4,7 @@ This is very simple OSC library for Swift.
 # Test enviroment
 * X Code 7.3.1
 * Writing with Swift 2
-* iOS 9
+* iOS 9.3
 
 # Required!!
 * Supporting args are only Float32, Int32, String.
