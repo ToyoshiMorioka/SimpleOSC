@@ -1,0 +1,10 @@
+framework module SimpleOSC {
+  umbrella header "SimpleOSC.h"
+
+  export *
+  module * { export * }
+}
+
+module SimpleOSC.Swift {
+    header "SimpleOSC-Swift.h"
+}
