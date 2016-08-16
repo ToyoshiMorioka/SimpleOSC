@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct SimpleOSC {
+public struct SimpleOSC {
     
     var oscMessageArray:Array<SimpleOSCMessage> = []
     
-    func getOSCData() -> NSData {
+    public func getOSCData() -> NSData {
         let result = NSMutableData()
         let header = SimpleOSCMessage.paddingString("#bundle")
         let timeTag = "\0\0\0\0\0\0\0\0" // this is timetag
@@ -30,7 +30,7 @@ struct SimpleOSC {
         return result
     }
     
-    func parseOSCData(data:NSData) -> Dictionary<String, AnyObject> {
+    public func parseOSCData(data:NSData) -> Dictionary<String, AnyObject> {
         var result:Dictionary<String, AnyObject> = [:]
         
         if hasBundle(data) {
@@ -212,7 +212,7 @@ struct SimpleOSC {
         return (success, result)
     }
     
-    mutating func addMessage(address:String, dataArray:Array<Any>){
+    public mutating func addMessage(address:String, dataArray:Array<Any>){
         var newMessage = SimpleOSCMessage()
         newMessage.setAddress("/\(address)")
         
@@ -240,21 +240,21 @@ struct SimpleOSC {
         oscMessageArray.append(newMessage)
     }
     
-    mutating func addMessage(address:String, data:Int32){
+    public mutating func addMessage(address:String, data:Int32){
         var newMessage = SimpleOSCMessage()
         newMessage.setAddress("/\(address)")
         newMessage.addInt32Param(data)
         oscMessageArray.append(newMessage)
     }
     
-    mutating func addMessage(address:String, data:Float32){
+    public mutating func addMessage(address:String, data:Float32){
         var newMessage = SimpleOSCMessage()
         newMessage.setAddress("/\(address)")
         newMessage.addFloat32Param(data)
         oscMessageArray.append(newMessage)
     }
     
-    mutating func addMessage(address:String, data:String){
+    public mutating func addMessage(address:String, data:String){
         var newMessage = SimpleOSCMessage()
         newMessage.setAddress("/\(address)")
         newMessage.addStringParam(data)
