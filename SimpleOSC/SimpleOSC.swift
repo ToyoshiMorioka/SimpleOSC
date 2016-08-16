@@ -12,6 +12,10 @@ public struct SimpleOSC {
     
     var oscMessageArray:Array<SimpleOSCMessage> = []
     
+    public init(){
+        
+    }
+    
     public mutating func removeAll() {
         oscMessageArray.removeAll()
     }
