@@ -10,10 +10,10 @@ import Foundation
 
 public struct SimpleOSC {
     
-    var oscMessageArray:Array<SimpleOSCMessage> = []
+    var oscMessageArray:Array<SimpleOSCMessage>
     
     public init(){
-        
+        oscMessageArray = []
     }
     
     public mutating func removeAll() {
