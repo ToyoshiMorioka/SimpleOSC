@@ -1,6 +1,6 @@
 //
-//  Simple.swift
-//  SoSA
+//  SimpleOSC.swift
+//  SimpleOSC
 //
 //  Created by MORIOKAToyoshi on 2016/04/30.
 //  Copyright © 2016年 ___MORIOKAToyoshi___. All rights reserved.
@@ -11,6 +11,10 @@ import Foundation
 public struct SimpleOSC {
     
     var oscMessageArray:Array<SimpleOSCMessage> = []
+    
+    public mutating func removeAll() {
+        oscMessageArray.removeAll()
+    }
     
     public func getOSCData() -> NSData {
         let result = NSMutableData()
@@ -260,4 +264,6 @@ public struct SimpleOSC {
         newMessage.addStringParam(data)
         oscMessageArray.append(newMessage)
     }
+    
+    
 }
