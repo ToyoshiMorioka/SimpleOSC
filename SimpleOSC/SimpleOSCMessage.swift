@@ -61,7 +61,12 @@ struct SimpleOSCMessage {
     
     static func int2Data(val:Int32) -> NSData{
 //        var returnVal = CFSwapInt32(UInt32(val))
-        var returnVal = val.littleEndian
+        var returnVal = val.bigEndian
+        return (NSData(bytes: &returnVal, length: sizeof(Int32)))
+    }
+    
+    static func uInt2Data(val:UInt32) -> NSData{
+        var returnVal = CFSwapInt32(UInt32(val))
         return (NSData(bytes: &returnVal, length: sizeof(Int32)))
     }
     

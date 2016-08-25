@@ -30,7 +30,7 @@ public struct SimpleOSC {
         if oscMessageArray.count != 0 {
             for i in 0...oscMessageArray.count-1 {
                 let message = oscMessageArray[i].getOSCData()
-                result.appendData(SimpleOSCMessage.int2Data(Int32(message.length)))
+                result.appendData(SimpleOSCMessage.uInt2Data(UInt32(message.length)))
                 result.appendData(message)
             }
         }
