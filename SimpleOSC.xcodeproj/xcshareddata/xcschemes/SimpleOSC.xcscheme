@@ -20,6 +20,20 @@
                ReferencedContainer = "container:SimpleOSC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BDDF1B631D5EFA1F0009C678"
+               BuildableName = "SimpleOSCTests.xctest"
+               BlueprintName = "SimpleOSCTests"
+               ReferencedContainer = "container:SimpleOSC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,16 +42,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BDDF1B631D5EFA1F0009C678"
-               BuildableName = "SimpleOSCTests.xctest"
-               BlueprintName = "SimpleOSCTests"
-               ReferencedContainer = "container:SimpleOSC.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

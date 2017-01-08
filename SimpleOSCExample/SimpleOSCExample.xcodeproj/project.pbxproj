@@ -12,8 +12,9 @@
 		BDDF1B861D5EFAC80009C678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDF1B841D5EFAC80009C678 /* Main.storyboard */; };
 		BDDF1B881D5EFAC80009C678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDF1B871D5EFAC80009C678 /* Assets.xcassets */; };
 		BDDF1B8B1D5EFAC80009C678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDF1B891D5EFAC80009C678 /* LaunchScreen.storyboard */; };
-		BDDF1B9C1D5EFEBC0009C678 /* SimpleOSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF1B991D5EFEBC0009C678 /* SimpleOSC.swift */; };
-		BDDF1B9D1D5EFEBC0009C678 /* SimpleOSCMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDF1B9A1D5EFEBC0009C678 /* SimpleOSCMessage.swift */; };
+		BDEEE2FF1E2225D700A15407 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDEEE2FB1E2225D700A15407 /* Info.plist */; };
+		BDEEE3001E2225D700A15407 /* SimpleOSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEE2FD1E2225D700A15407 /* SimpleOSC.swift */; };
+		BDEEE3011E2225D700A15407 /* SimpleOSCMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEEE2FE1E2225D700A15407 /* SimpleOSCMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +25,10 @@
 		BDDF1B871D5EFAC80009C678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDDF1B8A1D5EFAC80009C678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDDF1B8C1D5EFAC80009C678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDDF1B981D5EFEBC0009C678 /* SimpleOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleOSC.h; sourceTree = "<group>"; };
-		BDDF1B991D5EFEBC0009C678 /* SimpleOSC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleOSC.swift; sourceTree = "<group>"; };
-		BDDF1B9A1D5EFEBC0009C678 /* SimpleOSCMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleOSCMessage.swift; sourceTree = "<group>"; };
+		BDEEE2FB1E2225D700A15407 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEEE2FC1E2225D700A15407 /* SimpleOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleOSC.h; sourceTree = "<group>"; };
+		BDEEE2FD1E2225D700A15407 /* SimpleOSC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleOSC.swift; sourceTree = "<group>"; };
+		BDEEE2FE1E2225D700A15407 /* SimpleOSCMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleOSCMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,6 @@
 		BDDF1B741D5EFAC80009C678 = {
 			isa = PBXGroup;
 			children = (
-				BDDF1B961D5EFEBC0009C678 /* SimpleOSC */,
 				BDDF1B7F1D5EFAC80009C678 /* SimpleOSCExample */,
 				BDDF1B7E1D5EFAC80009C678 /* Products */,
 			);
@@ -60,6 +61,7 @@
 		BDDF1B7F1D5EFAC80009C678 /* SimpleOSCExample */ = {
 			isa = PBXGroup;
 			children = (
+				BDEEE2FA1E2225D700A15407 /* SimpleOSC */,
 				BDDF1B801D5EFAC80009C678 /* AppDelegate.swift */,
 				BDDF1B821D5EFAC80009C678 /* ViewController.swift */,
 				BDDF1B841D5EFAC80009C678 /* Main.storyboard */,
@@ -70,15 +72,16 @@
 			path = SimpleOSCExample;
 			sourceTree = "<group>";
 		};
-		BDDF1B961D5EFEBC0009C678 /* SimpleOSC */ = {
+		BDEEE2FA1E2225D700A15407 /* SimpleOSC */ = {
 			isa = PBXGroup;
 			children = (
-				BDDF1B981D5EFEBC0009C678 /* SimpleOSC.h */,
-				BDDF1B991D5EFEBC0009C678 /* SimpleOSC.swift */,
-				BDDF1B9A1D5EFEBC0009C678 /* SimpleOSCMessage.swift */,
+				BDEEE2FB1E2225D700A15407 /* Info.plist */,
+				BDEEE2FC1E2225D700A15407 /* SimpleOSC.h */,
+				BDEEE2FD1E2225D700A15407 /* SimpleOSC.swift */,
+				BDEEE2FE1E2225D700A15407 /* SimpleOSCMessage.swift */,
 			);
 			name = SimpleOSC;
-			path = ../SimpleOSC;
+			path = ../../SimpleOSC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +116,8 @@
 				TargetAttributes = {
 					BDDF1B7C1D5EFAC80009C678 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9KM73QDD8B;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -139,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEEE2FF1E2225D700A15407 /* Info.plist in Resources */,
 				BDDF1B8B1D5EFAC80009C678 /* LaunchScreen.storyboard in Resources */,
 				BDDF1B881D5EFAC80009C678 /* Assets.xcassets in Resources */,
 				BDDF1B861D5EFAC80009C678 /* Main.storyboard in Resources */,
@@ -153,8 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDDF1B831D5EFAC80009C678 /* ViewController.swift in Sources */,
-				BDDF1B9D1D5EFEBC0009C678 /* SimpleOSCMessage.swift in Sources */,
-				BDDF1B9C1D5EFEBC0009C678 /* SimpleOSC.swift in Sources */,
+				BDEEE3011E2225D700A15407 /* SimpleOSCMessage.swift in Sources */,
+				BDEEE3001E2225D700A15407 /* SimpleOSC.swift in Sources */,
 				BDDF1B811D5EFAC80009C678 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +276,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KM73QDD8B;
 				INFOPLIST_FILE = SimpleOSCExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--10drive.SimpleOSCExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -281,10 +289,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KM73QDD8B;
 				INFOPLIST_FILE = SimpleOSCExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--10drive.SimpleOSCExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
